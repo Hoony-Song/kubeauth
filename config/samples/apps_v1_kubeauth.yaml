@@ -1,0 +1,9 @@
+apiVersion: apps.www.seetlabs.kr/v1
+kind: Kubeauth
+metadata:
+  labels:
+    app.kubernetes.io/name: kubeauth
+    app.kubernetes.io/managed-by: kustomize
+  name: kubeauth-sample
+spec:
+  # TODO(user): Add fields here
